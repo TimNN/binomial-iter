@@ -4,7 +4,7 @@ use std::ops;
 
 #[inline(always)]
 fn gcd(mut u: u32, mut v: u32) -> u32 {
-    if u == 0 || v == 0 { return 1 } // This is matematically not neccessarily
+    if u == 0 || v == 0 { return 1 } // This is mathematically not necessarily
                                      // but acceptable for our uses (and better
                                      // than returning 0.
 

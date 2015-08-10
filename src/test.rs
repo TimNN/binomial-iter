@@ -25,6 +25,8 @@ fn n_iter() {
     }
 }
 
+// Test `inc` and `dec` in the same test case because we don't know for which
+// `n` choose `k` we can still use `binom`.
 #[test]
 fn k_iter() {
     for n in 0 .. N {
