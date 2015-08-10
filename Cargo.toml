@@ -1,0 +1,15 @@
+[package]
+name = "binomial-iter"
+version = "0.1.0"
+authors = ["Tim Neumann <mail@timnn.me>"]
+description = "Provides tools to iteratively compute the binomial coefficient"
+
+documentation = "https://timnn.github.io/binomial-iter/"
+homepage = "https://github.com/TimNN/binomial-iter"
+repository = "https://github.com/TimNN/binomial-iter"
+
+readme = "README.md"
+
+keywords = ["data-structures", "mathematics"]
+
+license = "MIT"
